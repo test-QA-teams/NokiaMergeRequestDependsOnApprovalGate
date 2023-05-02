@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import com.employee.exception.ResourceNotFound;
 import com.employee.model.Employee;
 import com.employee.repository.EmployeeRepository;
-
+//cretae class
 @CrossOrigin(origins = "http://localhost:4200",allowedHeaders="*")
 @RestControllerAdvice
 @RequestMapping("/api/v1/")
